@@ -2,14 +2,16 @@ const shoppingList = [];
 
 let i = countElems(shoppingList);
 console.log(i);
+document.getElementById("result").innerHTML = `There are ${i} elements in the array.`;
 
 function countElems(array = []){
     let curElem;
     while (!(curElem === null)) {
-        curElem = prompt("Which items do you have to buy?");
-        array.push(curElem);
-        console.log(array);
+        curElem = prompt("Insert element");
+        if(curElem !== null){
+            array.push(curElem);
+        }
     }
 
-    return array.length - 1;
+    return array.length;
 }
