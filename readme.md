@@ -13,8 +13,8 @@ When the user presses 'Cancel', the program stop asking and returns the amount o
 
 ### Procedure
 
-1. Elements will be pushed in the array.
+1. Non "null" elements will be pushed in the array.
 
 ### Output
 
-Print the amount of items in the array (except 1 which is null).
+Print the amount of items in the array.
