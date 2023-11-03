@@ -1,6 +1,6 @@
-const shoppingList = [];
+const arrayList = [];
 
-let i = countElems(shoppingList);
+let i = countElems(arrayList);
 console.log(i);
 document.getElementById("result").innerHTML = `There are ${i} elements in the array.`;
 
